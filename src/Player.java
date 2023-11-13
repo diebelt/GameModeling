@@ -13,4 +13,5 @@ public class Player extends Character implements CanFly {
     public void fly(){
         System.out.println("Player is flying!");
     }
+
 }

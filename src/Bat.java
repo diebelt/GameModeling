@@ -1,4 +1,4 @@
-public class Bat extends Enemy implements CanFly{
+public class Bat extends Enemy implements CanFly {
     private int evilLevel;
 
     public Bat(int evilLevel){
