@@ -25,6 +25,13 @@ public class Main {
         player.attack();
         bat.defend();
         System.out.println("--------------");
+        bat.fly();
+        if(bat.canFly()) {
+            player.fly();
+        }
+        System.out.println("--------------");
+        int evilLevel =  bat.getEvilLevel();
+        System.out.println("Bat's evil level: " + evilLevel);
 
     }
 }
